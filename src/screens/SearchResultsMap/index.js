@@ -27,7 +27,7 @@ const SearchResultsMap= (props) => {
                         coordinate={place.coordinate}
                         price={place.newPrice}
                         isSelected={place.id === selectedPlaceId}
-                        
+                        onPress={()=> setSelectedPlaceId(place.id)}
             
                     />)
                     )}
