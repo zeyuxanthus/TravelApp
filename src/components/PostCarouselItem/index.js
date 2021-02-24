@@ -29,7 +29,7 @@ const PostCarouselItem = (props) => {
 
                 {/* Old price & new price*/}
                 <Text style={styles.prices}>
-                    <Text style={styles.price}>  ${post.newPrice}/day</Text>
+                    <Text style={styles.price}>${post.newPrice}/day</Text>
                 </Text>
 
             </View>
